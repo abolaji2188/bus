@@ -1,0 +1,195 @@
+.body{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: 5px solid black;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+.front{
+    width: 100px;
+    height: 70px;
+    border-radius: 5px 100% 5px 5px;
+    background-color: yellow;
+    border: 5px solid black;
+    border-bottom: none;
+    position: absolute;
+    left: 700px ;
+    top: 100px ;
+}
+.nozzle{
+    width: 150px;
+    height: 80px;
+    border-radius: 5px 45px 5px 5px;
+    background-color: yellow;
+    border: 5px solid black;
+    border-top: none;
+    position: absolute;
+    left: 700px;
+    top: 174px;
+}
+.rail{
+    width: 310px;
+    height: 20px;
+    border-radius: 20px 0px 0px 20px ;
+    background-color: yellow;
+    position: absolute;
+    border: 5px solid black;
+    top: 234px;
+    left: 385px;
+}
+.rails{
+    width:480px ;
+    height: 20px;
+    position: absolute;
+    top: 256px;
+    left: 380px;
+    background-color: yellow;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.tyre{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: rgb(40, 40, 40);
+    border: 5px solid black;
+    left: 430px;
+    top: 250px ;
+}
+.tyre2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: rgb(40, 40, 40);
+    border: 5px solid black;
+    left: 700px;
+    top: 250px ;
+}
+.sub{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: white;
+    left: 460px;
+    top: 280px ;
+}
+.sub2{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: white;
+    left: 730px;
+    top: 280px ; 
+}
+.bus{
+    animation: bus 15s infinite;
+    z-index: 30;
+}
+@keyframes bus {
+    0%{
+        transform: translate(-100vw,0);
+    }
+    25%{
+        transform: translate(25vw,0);
+    }
+    50%{
+        transform: translate(50vw,0);
+    }
+    75%{
+        transform: translate(75vw,0);
+    }
+    100%{
+        transform: translate(100vw,0);
+    }
+}
+.win{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 5px solid black;
+    position: absolute;
+    left: 410px;
+    top: 120px;
+}
+.win2{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 5px solid black;
+    position: absolute;
+    left: 450px;
+    top: 120px;
+}
+.win2{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 5px solid black;
+    position: absolute;
+    left: 500px;
+    top: 120px;
+}
+.win3{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 5px solid black;
+    position: absolute;
+    left: 600px;
+    top: 120px;
+}
+/* .win{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 5px solid black;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+} */
+.window{
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+.wind{
+    width: 60px;
+    height: 50px;
+    background-color: yellow;
+    border: 5px solid black;
+    border-radius: 0px 100% 0px 0px;
+    position: absolute;
+    left: 715px;
+    top: 115px;
+}
+.track{
+    width: 1300px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 300px;
+    z-index: -10;
+    left: 0px;
+
+}
+.line{
+    display: flex;
+    gap: 150px;
+    position: relative;
+    top: 360px;
+    z-index: 90;
+    left: 150px;
+}
+.lin{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border: 5px solid black;
+}
